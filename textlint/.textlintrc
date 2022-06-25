@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "ja-no-inappropriate-words": true,
+    "ja-no-orthographic-variants": true,
+    "no-mixed-zenkaku-and-hankaku-alphabet": true,
+    "preset-ja-technical-writing": true
+  },
+  "filters": {
+    "comments": true
+  }
+}

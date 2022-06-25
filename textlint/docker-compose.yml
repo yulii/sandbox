@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    image: node:slim
+    working_dir: /app
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules:delegated
+
+volumes:
+  node_modules:
+    driver: local
